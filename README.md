@@ -1,4 +1,4 @@
-# SQL Sales Data Analysis
+# Excel Sales Data Analysis
 
 ## 📊 Project Overview
 
