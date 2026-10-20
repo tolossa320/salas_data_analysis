@@ -1,66 +1,219 @@
-# Excel Sales Data Analysis
-
-## 📊 Project Overview
-
-This project analyzes sales transaction data using SQL and MySQL
-to identify sales trends, profitability, product performance,
-customer behavior, and regional performance.
-
-## 🎯 Business Objectives
-
-The purpose of this project is to transform raw sales data into
-meaningful business insights that can support better decision-making.
-
-## ❓ Business Questions
-
-- What are the total sales and total profit?
-- Which products generate the highest revenue?
-- Which regions generate the most sales?
-- Which product categories are most profitable?
-- How do sales change over time?
-- Who are the top customers?
-- What is the monthly and quarterly sales performance?
-
-## 🛠️ Tools & Technologies
-
-- MySQL
-- SQL
-- Excel
-- Power BI
-
-## 🧠 SQL Skills Demonstrated
-
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- JOIN
-- Aggregate Functions
-- CASE Statements
-- Subqueries
-- Common Table Expressions (CTEs)
-- Window Functions
-- Date Functions
-
-## 📈 Key KPIs
-
-- Total Revenue
-- Total Cost
-- Total Profit
-- Profit Margin
-- Total Orders
-- Quantity Sold
-- Average Order Value
-
-## 📁 Project Structure
-
-```text
-sql-sales-data-analysis/
+E-commerce Sales Performance Dashboard | Power BI
+1. Project Overview
+The E-commerce Sales Performance Dashboard is a data analytics and business intelligence project developed using Microsoft Power BI. The purpose of this project is to analyze e-commerce sales data, monitor business performance, evaluate profitability, and provide actionable insights to support data-driven decision-making.
+The dashboard transforms raw sales data into interactive visualizations and key performance indicators (KPIs), enabling users to understand sales trends, product performance, customer activity, regional performance, and sales channel effectiveness.
+This project demonstrates practical skills in data cleaning, data modeling, DAX calculations, data visualization, and business performance analysis.
+2. Project Objectives
+The main objectives of this project are to:
+•	Analyze overall sales performance and profitability.
+•	Calculate and monitor essential business KPIs.
+•	Identify high-performing and low-performing products.
+•	Evaluate sales and profit by product category.
+•	Compare performance across regions and sales channels.
+•	Analyze sales trends over time.
+•	Monitor customer activity and order performance.
+•	Present business insights through an interactive dashboard.
+•	Develop practical Power BI skills for business intelligence and data analytics.
+3. Tools and Technologies
+Tool	Purpose
+Microsoft Power BI Desktop	Data modeling, DAX, and dashboard development
+Power Query	Data cleaning and transformation
+DAX (Data Analysis Expressions)	KPI calculations and analytical measures
+CSV / Excel	Data storage and input
+GitHub	Project documentation, version control, and portfolio publishing
+4. Dataset Description
+The dataset contains e-commerce transaction records used to analyze sales, costs, profits, products, customers, and order activity.
+Key data fields
+Column	Description
+Order_ID	Unique order identifier
+Order_Date	Date the order was placed
+Customer_ID	Customer identifier
+Product	Product name
+Category	Product category
+Region	Customer or sales region
+Sales_Channel	Website, mobile app, or marketplace
+Quantity	Number of units sold
+Unit_Price	Selling price per unit
+Unit_Cost	Cost per unit
+Sales	Total sales value for the transaction line
+Cost	Total cost of the transaction line
+Profit	Sales revenue minus cost
+Data note: If you use the sample CSV included in this repository, the records are synthetic practice data. They do not represent actual business transactions. Replace the sample data with authorized real data when conducting a real business analysis.
+5. Data Cleaning and Transformation
+Data preparation was performed using Power Query in Power BI.
+The main data preparation activities include:
+1.	Importing the dataset into Power BI Desktop.
+2.	Checking column names and data types.
+3.	Converting order dates to the Date data type.
+4.	Converting quantities to whole numbers and financial fields to numeric types.
+5.	Removing unnecessary spaces and cleaning text values.
+6.	Checking missing values, errors, and duplicate records.
+7.	Validating sales, cost, and profit calculations.
+8.	Reviewing negative or otherwise invalid values.
+9.	Creating a calendar table for time-based analysis.
+10.	Establishing relationships between the calendar table and the sales table.
+Data quality checks are important because incorrect data can produce misleading business results. Duplicate order IDs should not automatically be deleted because one order may contain multiple product lines.
+6. Key Performance Indicators (KPIs)
+The dashboard focuses on the following KPIs.
+6.1 Total Sales
+Measures the total revenue generated from product sales.
+Total Sales =
+SUM(EcommerceSales[Sales])
+Business value: Helps evaluate revenue performance and identify sales trends.
+6.2 Gross Profit
+Measures sales revenue after deducting the recorded cost of goods sold.
+Gross Profit =
+[Total Sales] - [Total Cost]
+Total Cost =
+SUM(EcommerceSales[Cost])
+Business value: Helps assess the profitability of products and categories before other operating expenses.
+6.3 Profit Margin
+Measures gross profit as a percentage of total sales.
+Profit Margin % =
+DIVIDE([Gross Profit], [Total Sales], 0)
+Business value: Helps evaluate how much gross profit is generated from each unit of sales revenue.
+6.4 Units Sold
+Measures the total quantity of products sold.
+Units Sold =
+SUM(EcommerceSales[Quantity])
+Business value: Helps assess product demand and sales volume.
+6.5 Total Orders
+Counts the distinct order identifiers in the dataset.
+Total Orders =
+DISTINCTCOUNT(EcommerceSales[Order_ID])
+Business value: Helps monitor transaction activity and order volume.
+6.6 Total Customers
+Counts distinct customer identifiers.
+Total Customers =
+DISTINCTCOUNT(EcommerceSales[Customer_ID])
+Business value: Helps measure the number of identifiable customers represented in the selected data.
+6.7 Average Order Value (AOV)
+Measures average sales revenue per distinct order.
+Average Order Value =
+DIVIDE([Total Sales], [Total Orders], 0)
+Business value: Helps evaluate the average revenue generated by each order.
+6.8 Average Selling Price
+Measures average sales revenue per unit sold.
+Average Selling Price =
+DIVIDE([Total Sales], [Units Sold], 0)
+Business value: Helps monitor the average realized selling price across products.
+6.9 Sales Growth
+Measures the percentage change in sales compared with the previous year.
+Sales LY =
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR('Calendar'[Date])
+)
+Sales YoY Growth % =
+DIVIDE(
+    [Total Sales] - [Sales LY],
+    [Sales LY],
+    0
+)
+Business value: Helps determine whether revenue is increasing or decreasing year over year.
+Year-over-year comparisons require appropriate historical data and a correctly configured calendar table.
+7. Dashboard Design and Visualizations
+The dashboard presents business performance through interactive visuals.
+Visualization	Purpose
+KPI cards	Display total sales, gross profit, profit margin, units sold, and total orders
+Line chart	Analyze sales trends over time
+Bar chart	Compare gross profit by product
+Column chart	Compare sales across product categories
+Bar chart	Evaluate sales by region
+Donut chart	Show the distribution of sales by channel
+Product performance table	Compare sales, costs, profit, units, and margin
+Slicers	Filter results by year, month, category, region, and sales channel
+Interactive Features
+The dashboard is designed to allow users to:
+•	Filter results by reporting period.
+•	Compare products and categories.
+•	Explore regional performance.
+•	Analyze sales channel contribution.
+•	Review changes in KPI values when filters are applied.
+8. Business Questions Addressed
+The dashboard helps answer important business questions, including:
+1.	How much total sales revenue has the business generated?
+2.	What is the gross profit and gross profit margin?
+3.	How many units have been sold?
+4.	How many distinct orders and customers are represented?
+5.	Which products generate the highest sales and gross profit?
+6.	Which categories contribute most to total revenue?
+7.	Which regions generate the strongest sales performance?
+8.	Which sales channels contribute most to revenue?
+9.	How do sales change over time?
+10.	What opportunities exist to improve profitability and sales performance?
+9. Business Insights and Recommendations
+The dashboard can support the following analytical activities:
+•	Product performance: Identify products with high revenue, strong profit, or weak profitability.
+•	Category analysis: Determine which categories contribute most to overall sales.
+•	Regional analysis: Identify regions with stronger or weaker sales performance.
+•	Channel analysis: Compare website, mobile app, and marketplace sales.
+•	Profitability analysis: Investigate products with low margins and review their pricing and costs.
+•	Sales trend analysis: Identify periods of increased or decreased demand.
+•	Customer analysis: Monitor distinct customers and average order value.
+Recommended Business Actions
+Based on the results of the actual dataset, the business could consider:
+1.	Prioritizing profitable products in marketing campaigns.
+2.	Reviewing costs and pricing for low-margin products.
+3.	Improving marketing activities in underperforming regions.
+4.	Comparing the effectiveness of different sales channels.
+5.	Using sales trends to support inventory and purchasing decisions.
+6.	Monitoring KPIs regularly to identify changes in business performance.
+These are analytical recommendations rather than confirmed findings. Specific conclusions should be made only after examining the actual dashboard results.
+10. Conclusion
+The E-commerce Sales Performance Dashboard provides an interactive approach to analyzing sales, profitability, products, customers, regions, and sales channels using Power BI.
+By combining data cleaning, data modeling, DAX measures, and visual analytics, the project transforms transaction data into information that can support business planning and decision-making.
+The project also demonstrates practical capabilities in data analysis and business intelligence, including KPI development, time-based analysis, data visualization, and analytical reporting.
+Future improvements could include connecting the report to a live database, configuring scheduled data refresh through Power BI Service, adding customer retention analysis, and developing more advanced forecasting measures.
+11. Future Improvements
+Potential enhancements include:
+•	Connecting to a MySQL or SQL Server database.
+•	Configuring scheduled refresh in Power BI Service.
+•	Adding customer segmentation and repeat-purchase analysis.
+•	Creating sales and profit forecasts.
+•	Developing drill-through pages for detailed product analysis.
+•	Adding inventory and stock performance metrics.
+•	Improving data validation and automated refresh monitoring.
+12. Project Structure
+ecommerce-powerbi-dashboard/
 │
 ├── README.md
-├── sql/
-│   └── sales_analysis.sql
-├── data/
-│   └── sales_data.csv
-└── images/
+├── ecommerce_sales_sample.csv
+├── DAX_Measures.txt
+├── BUILD_CHECKLIST.md
+├── Ecommerce_Sales_Dashboard.pbix
+└── screenshots/
+    └── dashboard_overview.png
+The Power BI file and screenshot should be added after the dashboard has been created. Do not include confidential company records, customer personal information, database credentials, or passwords.
+13. How to Use This Project
+1.	Download or clone this repository.
+2.	Open Power BI Desktop.
+3.	Import the CSV dataset.
+4.	Clean and transform the data in Power Query.
+5.	Create the calendar table and required relationships.
+6.	Add the DAX measures documented in this repository.
+7.	Build the recommended dashboard visuals.
+8.	Validate the KPI results against the source data.
+9.	Save the report as Ecommerce_Sales_Dashboard.pbix.
+10.	Upload the report and dashboard screenshots to GitHub, subject to file-size and data-sharing restrictions.
+14. Author
+Tolossa Kenaw
+Data Analytics | Power BI | SQL | Database Management
+This project is part of my portfolio to demonstrate my skills in data analysis, business intelligence, data visualization, and data-driven decision-making.
+15. License and Data Disclaimer
+This project is intended for educational, portfolio, and demonstration purposes.
+Ensure that any real business data used in the project is authorized for analysis and publication. Synthetic sample data should not be presented as actual business performance.
+If a license is added to this repository, follow the terms specified in that license.
+Recommended GitHub repository structure
+Use this structure when uploading your project:
+ecommerce-powerbi-dashboard/
+├── README.md
+├── ecommerce_sales_sample.csv
+├── DAX_Measures.txt
+├── BUILD_CHECKLIST.md
+├── Ecommerce_Sales_Dashboard.pbix
+└── screenshots/
+    └── dashboard_overview.png
+Before publishing: replace any placeholder descriptions with your actual findings, add a screenshot of your completed dashboard, and verify that the totals in your Power BI report match your source data.
+
     └── dashboard.png
