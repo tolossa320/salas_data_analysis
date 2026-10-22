@@ -12,14 +12,13 @@ The main objectives of this project are to:
 - Monitor customer activity and order performance.
 - Present business insights through an interactive dashboard.
 ## 3. Tools and Technologies
-Tool	Purpose
-![Uploading E-COMMERCE.jpg…]()
 
-** Microsoft Power BI Desktop for	Data modeling, DAX, and dashboard development
-Power Query	Data cleaning and transformation
-DAX (Data Analysis Expressions)	KPI calculations and analytical measures
-CSV / Excel	Data storage and input
-GitHub	Project documentation, version control, and portfolio publishing
+
+-Microsoft Power BI Desktop for Data modeling, DAX, and dashboard development Power Query	
+-Power Query for Data cleaning and transformation
+-DAX (Data Analysis Expressions) for KPI calculations and analytical measures 
+-CSV / Excel for Data storage and input
+
 4. Dataset Description
 The dataset contains e-commerce transaction records used to analyze sales, costs, profits, products, customers, and order activity.
 Key data fields
