@@ -38,29 +38,23 @@ The main objectives of this project are to:
 - Units Sold
 - Total Orders
 
-7. Dashboard Design and Visualizations
+## 7. Dashboard Design and Visualizations
 
 [View dashboard](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg)
 
+## 8. Business Questions Addressed
+1.	How much total sales revenue has the business generated?
+2.	What is the gross profit and gross profit margin?
+3.	How many units have been sold?
+4.	How many distinct orders and customers are represented?
+5.	Which products generate the highest sales and gross profit?
+6.	Which categories contribute most to total revenue?
+7.	Which regions generate the strongest sales performance?
+8.	Which sales channels contribute most to revenue?
+9.	How do sales change over time?
+10.	What opportunities exist to improve profitability and sales performance?
 
-The dashboard presents business performance through interactive visuals.
-Visualization	Purpose
-KPI cards	Display total sales, gross profit, profit margin, units sold, and total orders
-Line chart	Analyze sales trends over time
-Bar chart	Compare gross profit by product
-Column chart	Compare sales across product categories
-Bar chart	Evaluate sales by region
-Donut chart	Show the distribution of sales by channel
-Product performance table	Compare sales, costs, profit, units, and margin
-Slicers	Filter results by year, month, category, region, and sales channel
-Interactive Features
-The dashboard is designed to allow users to:
-•	Filter results by reporting period.
-•	Compare products and categories.
-•	Explore regional performance.
-•	Analyze sales channel contribution.
-•	Review changes in KPI values when filters are applied.
-9. Business Questions Addressed
+## 9. Business Questions Addressed
 The dashboard helps answer important business questions, including:
 1.	How much total sales revenue has the business generated?
 2.	What is the gross profit and gross profit margin?
