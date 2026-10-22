@@ -15,9 +15,9 @@ The main objectives of this project are to:
 
 
 - Microsoft Power BI Desktop for Data modeling, DAX, and dashboard development Power Query	
--Power Query for Data cleaning and transformation
--DAX (Data Analysis Expressions) for KPI calculations and analytical measures 
--CSV / Excel for Data storage and input
+- Power Query for Data cleaning and transformation
+- DAX (Data Analysis Expressions) for KPI calculations and analytical measures 
+- CSV / Excel for Data storage and input
 
 4. Dataset Description
 The dataset contains e-commerce transaction records used to analyze sales, costs, profits, products, customers, and order activity.
