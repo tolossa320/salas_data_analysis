@@ -16,10 +16,7 @@ The main objectives of this project are to:
 - Power Query for Data cleaning and transformation
 - DAX (Data Analysis Expressions) for KPI calculations and analytical measures 
 - CSV / Excel for Data storage and input
-
 ## 4. Data Cleaning and Transformation
-
-
 1.	Importing the dataset into Power BI Desktop.
 2.	Checking column names and data types.
 3.	Converting order dates to the Date data type.
@@ -68,59 +65,11 @@ Based on the results of the actual dataset, the business could consider:
 5.	Using sales trends to support inventory and purchasing decisions.
 6.	Monitoring KPIs regularly to identify changes in business performance.
 ## 10. Conclusion
-The E-commerce Sales Performance Dashboard provides an interactive approach to analyzing sales, profitability, products, customers, regions, and sales channels using Power BI.
-By combining data cleaning, data modeling, DAX measures, and visual analytics, the project transforms transaction data into information that can support business planning and decision-making.
-The project also demonstrates practical capabilities in data analysis and business intelligence, including KPI development, time-based analysis, data visualization, and analytical reporting.
-Future improvements could include connecting the report to a live database, configuring scheduled data refresh through Power BI Service, adding customer retention analysis, and developing more advanced forecasting measures.
-11. Future Improvements
-Potential enhancements include:
-•	Connecting to a MySQL or SQL Server database.
-•	Configuring scheduled refresh in Power BI Service.
-•	Adding customer segmentation and repeat-purchase analysis.
-•	Creating sales and profit forecasts.
-•	Developing drill-through pages for detailed product analysis.
-•	Adding inventory and stock performance metrics.
-•	Improving data validation and automated refresh monitoring.
-12. Project Structure
-ecommerce-powerbi-dashboard/
-│
-├── README.md
-├── ecommerce_sales_sample.csv
-├── DAX_Measures.txt
-├── BUILD_CHECKLIST.md
-├── Ecommerce_Sales_Dashboard.pbix
-└── screenshots/
-    └── dashboard_overview.png
-The Power BI file and screenshot should be added after the dashboard has been created. Do not include confidential company records, customer personal information, database credentials, or passwords.
-13. How to Use This Project
-1.	Download or clone this repository.
-2.	Open Power BI Desktop.
-3.	Import the CSV dataset.
-4.	Clean and transform the data in Power Query.
-5.	Create the calendar table and required relationships.
-6.	Add the DAX measures documented in this repository.
-7.	Build the recommended dashboard visuals.
-8.	Validate the KPI results against the source data.
-9.	Save the report as Ecommerce_Sales_Dashboard.pbix.
-10.	Upload the report and dashboard screenshots to GitHub, subject to file-size and data-sharing restrictions.
-14. Author
-Tolossa Kenaw
-Data Analytics | Power BI | SQL | Database Management
-This project is part of my portfolio to demonstrate my skills in data analysis, business intelligence, data visualization, and data-driven decision-making.
-15. License and Data Disclaimer
-This project is intended for educational, portfolio, and demonstration purposes.
-Ensure that any real business data used in the project is authorized for analysis and publication. Synthetic sample data should not be presented as actual business performance.
-If a license is added to this repository, follow the terms specified in that license.
-Recommended GitHub repository structure
-Use this structure when uploading your project:
-ecommerce-powerbi-dashboard/
-├── README.md
-├── ecommerce_sales_sample.csv
-├── DAX_Measures.txt
-├── BUILD_CHECKLIST.md
-├── Ecommerce_Sales_Dashboard.pbix
-└── screenshots/
-    └── dashboard_overview.png
-Before publishing: replace any placeholder descriptions with your actual findings, add a screenshot of your completed dashboard, and verify that the totals in your Power BI report match your source data.
 
-    └── dashboard.png
+- By combining data cleaning, data modeling, DAX measures, and visual analytics, the project transforms transaction data into information that can support business planning and decision-making.
+- The project also demonstrates practical capabilities in data analysis and business intelligence, including KPI development, time-based analysis, data visualization, and analytical reporting.
+# 14. Author
+## Tolossa Kenaw
+## Data Analytics | Power BI | SQL | Database Management
+- This project is part of my portfolio to demonstrate my skills in data analysis, business intelligence, data visualization, and data-driven decision-making.
+
