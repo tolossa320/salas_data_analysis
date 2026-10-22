@@ -30,9 +30,8 @@ The main objectives of this project are to:
 8.	Reviewing negative or otherwise invalid values.
 9.	Creating a calendar table for time-based analysis.
 10.	Establishing relationships between the calendar table and the sales table.
-Data quality checks are important because incorrect data can produce misleading business results. Duplicate order IDs should not automatically be deleted because one order may contain multiple product lines.
-6. Key Performance Indicators (KPIs)
-The dashboard focuses on the following KPIs.
+
+## 6. Key Performance Indicators (KPIs)
 6.1 Total Sales
 Measures the total revenue generated from product sales.
 Total Sales =
