@@ -20,12 +20,12 @@ The main objectives of this project are to:
 ## 4. Data Cleaning and Transformation
 
 
-- 1.	Importing the dataset into Power BI Desktop.
-- 2.	Checking column names and data types.
-- 3.	Converting order dates to the Date data type.
-- 4.	Converting quantities to whole numbers and financial fields to numeric types.
-- 5.	Removing unnecessary spaces and cleaning text values.-
-  6.	Checking missing values, errors, and duplicate records.
+1.	Importing the dataset into Power BI Desktop.
+2.	Checking column names and data types.
+3.	Converting order dates to the Date data type.
+4.	Converting quantities to whole numbers and financial fields to numeric types.
+5.	Removing unnecessary spaces and cleaning text values.-
+6.	Checking missing values, errors, and duplicate records.
 7.	Validating sales, cost, and profit calculations.
 8.	Reviewing negative or otherwise invalid values.
 9.	Creating a calendar table for time-based analysis.
