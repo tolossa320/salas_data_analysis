@@ -14,7 +14,7 @@ The main objectives of this project are to:
 ## 3. Tools and Technologies
 
 
--Microsoft Power BI Desktop for Data modeling, DAX, and dashboard development Power Query	
+- Microsoft Power BI Desktop for Data modeling, DAX, and dashboard development Power Query	
 -Power Query for Data cleaning and transformation
 -DAX (Data Analysis Expressions) for KPI calculations and analytical measures 
 -CSV / Excel for Data storage and input
