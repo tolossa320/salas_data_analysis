@@ -34,8 +34,8 @@ The main objectives of this project are to:
 - Units Sold
 - Total Orders
 ## 7. Dashboard Design and Visualizations
-[View dashboard image ](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg)
-[View dashboard on Power BI disktop](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.pbix))
+- [View dashboard image ](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg)
+- [View dashboard on Power BI disktop](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.pbix))
 ## 8. Business Questions Addressed
 1.	How much total sales revenue has the business generated?
 2.	What is the gross profit and gross profit margin?
