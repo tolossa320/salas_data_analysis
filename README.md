@@ -54,19 +54,7 @@ The main objectives of this project are to:
 9.	How do sales change over time?
 10.	What opportunities exist to improve profitability and sales performance?
 
-## 9. Business Questions Addressed
-The dashboard helps answer important business questions, including:
-1.	How much total sales revenue has the business generated?
-2.	What is the gross profit and gross profit margin?
-3.	How many units have been sold?
-4.	How many distinct orders and customers are represented?
-5.	Which products generate the highest sales and gross profit?
-6.	Which categories contribute most to total revenue?
-7.	Which regions generate the strongest sales performance?
-8.	Which sales channels contribute most to revenue?
-9.	How do sales change over time?
-10.	What opportunities exist to improve profitability and sales performance?
-9. Business Insights and Recommendations
+## 9. Business Insights and Recommendations
 The dashboard can support the following analytical activities:
 •	Product performance: Identify products with high revenue, strong profit, or weak profitability.
 •	Category analysis: Determine which categories contribute most to overall sales.
@@ -75,7 +63,7 @@ The dashboard can support the following analytical activities:
 •	Profitability analysis: Investigate products with low margins and review their pricing and costs.
 •	Sales trend analysis: Identify periods of increased or decreased demand.
 •	Customer analysis: Monitor distinct customers and average order value.
-Recommended Business Actions
+## Recommended Business Actions
 Based on the results of the actual dataset, the business could consider:
 1.	Prioritizing profitable products in marketing campaigns.
 2.	Reviewing costs and pricing for low-margin products.
