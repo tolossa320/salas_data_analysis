@@ -30,18 +30,14 @@ The main objectives of this project are to:
 8.	Reviewing negative or otherwise invalid values.
 9.	Creating a calendar table for time-based analysis.
 10.	Establishing relationships between the calendar table and the sales table.
-
 ## 6. Key Performance Indicators (KPIs)
 - Total Sales
 - Gross Profit
 - Profit Margin
 - Units Sold
 - Total Orders
-
 ## 7. Dashboard Design and Visualizations
-
 [View dashboard](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg)
-
 ## 8. Business Questions Addressed
 1.	How much total sales revenue has the business generated?
 2.	What is the gross profit and gross profit margin?
@@ -71,8 +67,7 @@ Based on the results of the actual dataset, the business could consider:
 4.	Comparing the effectiveness of different sales channels.
 5.	Using sales trends to support inventory and purchasing decisions.
 6.	Monitoring KPIs regularly to identify changes in business performance.
-These are analytical recommendations rather than confirmed findings. Specific conclusions should be made only after examining the actual dashboard results.
-10. Conclusion
+## 10. Conclusion
 The E-commerce Sales Performance Dashboard provides an interactive approach to analyzing sales, profitability, products, customers, regions, and sales channels using Power BI.
 By combining data cleaning, data modeling, DAX measures, and visual analytics, the project transforms transaction data into information that can support business planning and decision-making.
 The project also demonstrates practical capabilities in data analysis and business intelligence, including KPI development, time-based analysis, data visualization, and analytical reporting.
