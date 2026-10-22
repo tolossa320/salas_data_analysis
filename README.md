@@ -13,7 +13,8 @@ The purpose of this project is to analyze e-commerce sales data, monitor busines
 •	Present business insights through an interactive dashboard.
 ## 3. Tools and Technologies
 Tool	Purpose
-Microsoft Power BI Desktop	Data modeling, DAX, and dashboard development
+
+** Microsoft Power BI Desktop for	Data modeling, DAX, and dashboard development
 Power Query	Data cleaning and transformation
 DAX (Data Analysis Expressions)	KPI calculations and analytical measures
 CSV / Excel	Data storage and input
