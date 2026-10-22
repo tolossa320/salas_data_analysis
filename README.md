@@ -1,5 +1,5 @@
 ## E-commerce Sales Performance Dashboard | Power BI
-1. Project Overview
+ ## 1. Project Overview
 The E-commerce Sales Performance Dashboard is a data analytics and business intelligence project developed using Microsoft Power BI. The purpose of this project is to analyze e-commerce sales data, monitor business performance, evaluate profitability, and provide actionable insights to support data-driven decision-making.
 The dashboard transforms raw sales data into interactive visualizations and key performance indicators (KPIs), enabling users to understand sales trends, product performance, customer activity, regional performance, and sales channel effectiveness.
 This project demonstrates practical skills in data cleaning, data modeling, DAX calculations, data visualization, and business performance analysis.
