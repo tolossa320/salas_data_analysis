@@ -2,8 +2,8 @@
  ## 1. Project Overview
 The purpose of this project is to analyze e-commerce sales data, monitor business performance, evaluate profitability, and provide actionable insights to support data-driven decision-making.
 ## 2. Project Objectives
-#The main objectives of this project are to:
-•	Analyze overall sales performance and profitability.
+The main objectives of this project are to:
+- Analyze overall sales performance and profitability.
 •	Calculate and monitor essential business KPIs.
 •	Identify high-performing and low-performing products.
 •	Evaluate sales and profit by product category.
