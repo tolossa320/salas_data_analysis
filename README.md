@@ -18,32 +18,14 @@ The main objectives of this project are to:
 - CSV / Excel for Data storage and input
 
 ## 4. Data Cleaning and Transformation
-The dataset contains e-commerce transaction records used to analyze sales, costs, profits, products, customers, and order activity.
-Key data fields
-Column	Description
-Order_ID	Unique order identifier
-Order_Date	Date the order was placed
-Customer_ID	Customer identifier
-Product	Product name
-Category	Product category
-Region	Customer or sales region
-Sales_Channel	Website, mobile app, or marketplace
-Quantity	Number of units sold
-Unit_Price	Selling price per unit
-Unit_Cost	Cost per unit
-Sales	Total sales value for the transaction line
-Cost	Total cost of the transaction line
-Profit	Sales revenue minus cost
-Data note: If you use the sample CSV included in this repository, the records are synthetic practice data. They do not represent actual business transactions. Replace the sample data with authorized real data when conducting a real business analysis.
-5. Data Cleaning and Transformation
-Data preparation was performed using Power Query in Power BI.
-The main data preparation activities include:
-1.	Importing the dataset into Power BI Desktop.
-2.	Checking column names and data types.
-3.	Converting order dates to the Date data type.
-4.	Converting quantities to whole numbers and financial fields to numeric types.
-5.	Removing unnecessary spaces and cleaning text values.
-6.	Checking missing values, errors, and duplicate records.
+
+
+- 1.	Importing the dataset into Power BI Desktop.
+- 2.	Checking column names and data types.
+- 3.	Converting order dates to the Date data type.
+- 4.	Converting quantities to whole numbers and financial fields to numeric types.
+- 5.	Removing unnecessary spaces and cleaning text values.-
+  6.	Checking missing values, errors, and duplicate records.
 7.	Validating sales, cost, and profit calculations.
 8.	Reviewing negative or otherwise invalid values.
 9.	Creating a calendar table for time-based analysis.
