@@ -17,7 +17,7 @@ The main objectives of this project are to:
 - DAX (Data Analysis Expressions) for KPI calculations and analytical measures 
 - CSV / Excel for Data storage and input
 
-##4. Data Cleaning and Transformation
+## 4. Data Cleaning and Transformation
 The dataset contains e-commerce transaction records used to analyze sales, costs, profits, products, customers, and order activity.
 Key data fields
 Column	Description
