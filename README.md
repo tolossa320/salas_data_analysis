@@ -40,7 +40,7 @@ The main objectives of this project are to:
 
 7. Dashboard Design and Visualizations
 
-[Projects](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg)
+[View dashboard](https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg)
 
 
 The dashboard presents business performance through interactive visuals.
