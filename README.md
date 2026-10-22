@@ -5,12 +5,12 @@ The purpose of this project is to analyze e-commerce sales data, monitor busines
 The main objectives of this project are to:
 - Analyze overall sales performance and profitability.
 - Calculate and monitor essential business KPIs.
-- 	Identify high-performing and low-performing products.
-- 		Evaluate sales and profit by product category.
-- 		Compare performance across regions.
-- 		Analyze sales trends over time.
-- 		Monitor customer activity and order performance.
-- 		Present business insights through an interactive dashboard.
+- Identify high-performing and low-performing products.
+- Evaluate sales and profit by product category.
+- Compare performance across regions.
+- Analyze sales trends over time.
+- Monitor customer activity and order performance.
+- Present business insights through an interactive dashboard.
 ## 3. Tools and Technologies
 Tool	Purpose
 ![Uploading E-COMMERCE.jpg…]()
