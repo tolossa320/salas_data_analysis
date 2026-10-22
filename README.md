@@ -1,4 +1,4 @@
-## E-commerce Sales Performance Dashboard | Power BI
+# E-commerce Sales Performance Dashboard | Power BI
  ## 1. Project Overview
 The purpose of this project is to analyze e-commerce sales data, monitor business performance, evaluate profitability, and provide actionable insights to support data-driven decision-making.
 ## 2. Project Objectives
