@@ -39,7 +39,10 @@ The main objectives of this project are to:
 - Total Orders
 
 7. Dashboard Design and Visualizations
-- <a hrf="https://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg"> View the Dashboard
+<a href="ttps://github.com/tolossa320/salas_data_analysis/blob/main/E-COMMERCE.jpg">
+                Projects</a
+              >
+
 The dashboard presents business performance through interactive visuals.
 Visualization	Purpose
 KPI cards	Display total sales, gross profit, profit margin, units sold, and total orders
